@@ -74,8 +74,8 @@
 .overflow-hidden { overflow: hidden; }
 
 .project .project-img{
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   margin: auto;
 }
 
