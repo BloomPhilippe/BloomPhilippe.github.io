@@ -2,6 +2,12 @@
   max-width: 960px;
 }
 
+a{
+  color: initial;
+}
+a:hover{
+  color: #343a40;
+}
 /*
  * Custom translucent site header
  */
