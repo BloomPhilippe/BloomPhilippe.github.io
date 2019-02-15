@@ -72,3 +72,9 @@
 }
 
 .overflow-hidden { overflow: hidden; }
+
+.project-img{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
