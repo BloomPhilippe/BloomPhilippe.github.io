@@ -73,8 +73,12 @@
 
 .overflow-hidden { overflow: hidden; }
 
-.project-img{
-  width: 100%;
-  height: auto;
+.project .project-img{
+  width: auto;
+  height: 100%;
   margin: auto;
+}
+
+.project .lead{
+  min-height: 100px;
 }
