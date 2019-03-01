@@ -1,141 +1,538 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="description" content="Philippe Bloom, developpeur Web. Création de site Web et developpement d'application.">
+    <meta name="author" content="BloomPhilippe">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <title>Philippe Bloom</title>
     <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/product.css">
-    <title>Mes projets | BloomPhilippe</title>
+    <!-- STYLES -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/plugins.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+    <!-- /STYLES -->
+
 </head>
+
 <body>
-<nav class="site-header sticky-top py-1">
-    <div class="container d-flex flex-column flex-md-row justify-content-between">
-        <a class="py-2" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
-        </a>
-        <!-- <a class="py-2 d-none d-md-inline-block" href="#">Form Wizard</a> -->
-    </div>
-</nav>
 
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-light">
-    <div class="col-md-5 p-lg-5 mx-auto my-5 text-center">
-        <h1 class="display-4 font-weight-normal">Philippe Bloom</h1>
-        <p class="lead font-weight-normal">
-            Je suis développeur Web et ci-dessous, je vous présente certains de mes projets.
-        </p>
-        <p class="lead font-weight-normal">
-            Développeur depuis 4 ans, j'ai eu la chance de participer à de nombreux projets pour différentes sociétés tels que <a href="https://www.epic.net">Epic Agency</a>, <a href="https://www.produweb.be">Produweb</a> et <a href="https://mega.be">Mega</a>.
-        </p>
-        <a class="btn btn-outline-secondary" href="https://github.com/BloomPhilippe">Mes dépôts GitHub</a>
-    </div>
-    <div class="product-device shadow-sm d-none d-md-block"></div>
-    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-</div>
+<!-- WRAPPER ALL -->
+<div class="arlo_tm_wrapper_all">
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden project">
-        <div class="my-3 py-3">
-            <h2 class="display-5">Form Wizard</h2>
-            <p class="lead">Formulaire à plusieurs étapes écrit en VueJS.</p>
-            <a class="btn btn-outline-secondary" href="/projets/vue-form-wizard">Voir</a>
-            <a class="btn btn-outline-secondary" href="https://github.com/BloomPhilippe/vue-form-wizard">Code</a>
+    <div id="arlo_tm_popup_blog">
+        <div class="container">
+            <div class="inner_popup scrollable"></div>
         </div>
-        <div class="bg-light shadow-sm mx-auto project-img" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;overflow: hidden; background-image: url(images/vuejs.png)">
-        </div>
+        <span class="close"><a href="#"></a></span>
     </div>
-    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden project">
-        <div class="my-3 p-3">
-            <h2 class="display-5">RMQ</h2>
-            <p class="lead">Un service (package) pour le framework Lumen/Laravel. Ce permet une gestion des queues RabbitMQ à travers Lumen.</p>
-            <a class="btn btn-outline-secondary" href="https://github.com/BloomPhilippe/RMQ">Code</a>
-        </div>
-        <div class="bg-dark shadow-sm mx-auto project-img" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;overflow: hidden; background-image: url(images/laravel.png)">
-        </div>
-    </div>
-</div>
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden project">
-        <div class="my-3 p-3">
-            <h2 class="display-5">Thème WordPress</h2>
-            <p class="lead">Mes notes de cours expliquant comment créer un thème WordPress</p>
-            <a class="btn btn-outline-secondary" href="https://github.com/BloomPhilippe/cours-wp-creation-theme">Voir</a>
+    <!-- PRELOADER -->
+    <div class="arlo_tm_preloader">
+        <div class="spinner_wrap">
+            <div class="spinner"></div>
         </div>
-        <div class="bg-dark shadow-sm mx-auto project-img" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;overflow: hidden; background-image: url(images/wp.png)"></div>
     </div>
-    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden project">
-        <div class="my-3 py-3">
-            <h2 class="display-5">Cours de CSS</h2>
-            <p class="lead">Mes notes pour le cours de création de site Web</p>
-            <a class="btn btn-outline-secondary" href="https://github.com/BloomPhilippe/cours-creation-site-web/blob/master/css/css.md">Voir</a>
-        </div>
-        <div class="bg-light shadow-sm mx-auto project-img" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;overflow: hidden; background-image: url(images/HTML5.jpg)"></div>
-    </div>
-</div>
+    <!-- /PRELOADER -->
 
-<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden project">
-        <div class="my-3 py-3">
-            <h2 class="display-5">MoviesAndMe</h2>
-            <p class="lead">Petit projet React Native.</p>
-            <a class="btn btn-outline-secondary" href="https://github.com/BloomPhilippe/MoviesAndMe">Code</a>
+    <!-- MOBILE MENU -->
+    <div class="arlo_tm_mobile_header_wrap">
+        <div class="main_wrap">
+            <div class="logo">
+                <img src="img/logo/mobile_logo.png" alt="" />
+            </div>
+            <div class="arlo_tm_trigger">
+                <div class="hamburger hamburger--collapse-r">
+                    <div class="hamburger-box">
+                        <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="bg-light shadow-sm mx-auto project-img" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;overflow: hidden; background-image: url(images/react-native.png)">
+        <div class="arlo_tm_mobile_menu_wrap">
+            <div class="mob_menu">
+                <ul class="anchor_nav">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">A propos</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#news">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </div>
-    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden project">
-    <div class="my-3 p-3">
-        <h2 class="display-5">Form Wizard</h2>
-        <p class="lead">Formulaire à plusieurs étapes écrit en React.</p>
-        <a class="btn btn-outline-secondary" href="/projets/react-form-wizard">Voir</a>
-        <a class="btn btn-outline-secondary" href="https://github.com/BloomPhilippe/react-form-wizard">Code</a>
-    </div>
-    <div class="bg-dark shadow-sm mx-auto project-img" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;overflow: hidden; background-image: url(images/react.jpeg)">
-    </div>
-</div>
-</div>
+    <!-- /MOBILE MENU -->
 
-<footer class="container py-5">
-    <div class="row">
-        <div class="col-6 col-md">
-            <h5>Réseaux sociaux</h5>
-            <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="https://www.linkedin.com/in/bloomphilippe/">Linkedin</a></li>
-                <li><a class="text-muted" href="https://github.com/BloomPhilippe">GitHub</a></li>
-                <li><a class="text-muted" href="https://www.facebook.com/bloomandweb/">Facebook</a></li>
-            </ul>
+    <!-- CONTENT -->
+    <div class="arlo_tm_content">
+
+        <!-- LEFTPART -->
+        <div class="arlo_tm_leftpart_wrap">
+            <div class="leftpart_inner">
+                <div class="logo_wrap">
+                    <a href="#">
+                        <img src="img/logo/desktop-logo.png" alt="" style="width: 30%"/>
+                    </a>
+                </div>
+                <div class="menu_list_wrap">
+                    <ul class="anchor_nav">
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#about">A propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#news">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="leftpart_bottom">
+                    <div class="social_wrap">
+                        <ul>
+                            <li><a href="https://www.facebook.com/bloom.phil"><i class="xcon-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/bloomphilippe/"><i class="xcon-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="arlo_tm_resize" href="#"><i class="xcon-angle-left"></i></a>
+            </div>
         </div>
-        <div class="col-6 col-md">
-            <h5>Mes connaissances</h5>
-            <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">PHP (Laravel / Lumen, Symfony)</a></li>
-                <li><a class="text-muted" href="#">Javascript (VueJS)</a></li>
-                <li><a class="text-muted" href="#">CMS (WordPress, Drupal)</a></li>
-                <li><a class="text-muted" href="#">HTML & CSS, SASS, LESS</a></li>
-                <li><a class="text-muted" href="#">CLI</a></li>
-                <li><a class="text-muted" href="#">Nginx & Apache</a></li>
-                <li><a class="text-muted" href="#">Git, GitHub, GitLab</a></li>
-                <li><a class="text-muted" href="#">JIRA, Bamboo, Confluence</a></li>
-                <li><a class="text-muted" href="#">MySQL, PostgreSQL, MongoDB</a></li>
-                <li><a class="text-muted" href="#">SOAP (client & server), REST (JSON)</a></li>
-                <li><a class="text-muted" href="#">Autres : Katalon, Kong, Elasticsearch</a></li>
-            </ul>
+        <!-- /LEFTPART -->
+
+        <!-- RIGHTPART -->
+        <div class="arlo_tm_rightpart">
+            <div class="rightpart_inner">
+                <div class="arlo_tm_section" id="home">
+                    <div class="arlo_tm_hero_header_wrap">
+                        <div class="arlo_tm_universal_box_wrap particle jarallax" data-speed="0.1">
+                            <div id="particles-js"></div>
+                            <div class="particle_overlay"></div>
+                            <div class="inner_content">
+                                <div class="image_wrap">
+                                    <img src="img/hero/new.jpg" alt="" />
+                                </div>
+                                <div class="name_holder">
+                                    <h3>Philippe <span>Bloom</span></h3>
+                                </div>
+                                <div class="text_typing">
+                                    <p><span class="arlo_tm_animation_text_word"></span></p>
+                                </div>
+                            </div>
+                            <div class="arlo_tm_arrow_wrap bounce anchor">
+                                <a href="#about"><i class="xcon-angle-double-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ABOUT -->
+                <div class="arlo_tm_section relative" id="about">
+                    <div class="arlo_tm_about_wrapper_all">
+                        <div class="container">
+                            <div class="arlo_tm_title_holder">
+                                <h3>À propos</h3>
+                                <span>Informations personnelles</span>
+                            </div>
+                            <div class="arlo_tm_about_wrap">
+                                <div class="author_wrap">
+                                    <div class="leftbox">
+                                        <div class="about_image_wrap parallax" data-relative-input="true">
+                                            <div class="image layer" data-depth="0.1">
+                                                <img src="img/about/550x640.jpg" alt="" />
+                                                <div class="inner" data-img-url="img/about/1.png"></div>
+                                            </div>
+                                            <div class="border layer" data-depth="0.2">
+                                                <img src="img/about/550x640.jpg" alt="" />
+                                                <div class="inner"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rightbox">
+                                        <div class="arlo_tm_mini_title_holder">
+                                            <h4>Je suis Philippe Bloom, <span class="arlo_tm_animation_text_word"></span></h4>
+                                        </div>
+                                        <div class="definition">
+                                            <p class="mb-5">
+                                                Je possède un certificat d’enseignement secondaire supérieur de technicien en informatique obtenu
+                                                avec grande distinction, en juin 2011.
+                                            </p>
+                                            <p class="mb-5">
+                                                En 2013, la nouvelle section Webdeveloper a été créée par la Communauté française. Etant donné
+                                                que j’étais sur le point d’obtenir mon diplôme de Webmaster, j’ai prolongé mes études afin d’obtenir
+                                                le diplôme de Webdeveloper qui, je pense, est en plein expansion.
+                                            </p>
+                                            <p class="mb-5">
+                                                Actuellement, je possède une bonne expérience des différents langages pour le
+                                                dévéloppement d’application Web et mobile.
+                                            </p>
+                                        </div>
+                                        <div class="buttons_wrap">
+                                            <ul>
+                                                <li>
+                                                    <a href="cv.pdf" target="_blank" download><span>Curriculum vitae</span></a>
+                                                </li>
+                                                <li class="anchor">
+                                                    <a href="#contact"><span>Me contacter</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /ABOUT -->
+
+                <!-- SKILLS -->
+                <div class="arlo_tm_section">
+                    <div class="arlo_tm_skills_wrap">
+                        <div class="container">
+                            <div class="inner_wrap">
+                                <div class="leftbox">
+                                    <div class="arlo_tm_mini_title_holder">
+                                        <h4>Mes connaissances</h4>
+                                    </div>
+                                    <p>Développeur depuis 4 ans, j'ai eu la chance de participer à de nombreux projets pour différentes sociétés tels que <a href="https://www.epic.net">Epic Agency</a>, <a href="https://www.produweb.be">Produweb</a> et <a href="https://mega.be">Mega</a>.</p>
+                                </div>
+                                <div class="rightbox">
+                                    <div class="progress_bar_wrap_total">
+                                        <div class="arlo_tm_progress_wrap" data-size="small" data-round="c" data-strip="off">
+                                            <div class="arlo_tm_progress" data-value="95" data-color="#000">
+                                                <span><span class="label">Javascript - <span class="experience">NodeJS, React, React Native, VueJS, JQuery</span></span></span>
+                                                <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+                                            </div>
+                                            <div class="arlo_tm_progress" data-value="95" data-color="#000">
+                                                <span><span class="label">PHP - <span class="experience">Symfony, Laravel, Lumen, Zend</span></span></span>
+                                                <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+                                            </div>
+                                            <div class="arlo_tm_progress" data-value="100" data-color="#000">
+                                                <span><span class="label">Base de données - <span class="experience">MySQL, PostgreSQL, MongoDB</span></span></span>
+                                                <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+                                            </div>
+                                            <div class="arlo_tm_progress" data-value="95" data-color="#000">
+                                                <span><span class="label">CSS - <span class="experience">SASS & LESS</span></span></span>
+                                                <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+                                            </div>
+                                            <div class="arlo_tm_progress" data-value="100" data-color="#000">
+                                                <span><span class="label">Wordpress - <span class="experience">Création de thème & plugins</span></span></span>
+                                                <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+                                            </div>
+                                            <div class="arlo_tm_progress" data-value="80" data-color="#000">
+                                                <span><span class="label">Drupal - <span class="experience">(7 & 8)</span></span></span>
+                                                <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+                                            </div>
+                                            <div class="arlo_tm_progress" data-value="100" data-color="#000">
+                                                <span><span class="label">Autres - <span class="experience">XML, JSON, SOAP, REST</span></span></span>
+                                                <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+                                            </div>
+                                            <div class="arlo_tm_progress" data-value="100" data-color="#000">
+                                                <span><span class="label">GIT - <span class="experience">GitLab, GitHub</span></span></span>
+                                                <div class="arlo_tm_bar_bg"><div class="arlo_tm_bar_wrap"><div class="arlo_tm_bar"></div></div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /SKILLS -->
+
+                <!-- SERVICES -->
+                <div class="arlo_tm_section" id="services">
+                    <div class="arlo_tm_services_wrap">
+                        <div class="container">
+                            <div class="arlo_tm_title_holder">
+                                <h3>Services</h3>
+                                <span>Mes domaines de compétences</span>
+                            </div>
+                            <div class="list_wrap">
+                                <ul>
+                                    <li>
+                                        <div class="inner">
+                                            <div class="icon">
+                                                <img class="svg" src="img/svg/camera-diaphragm.svg" alt="" />
+                                            </div>
+                                            <div class="title_service">
+                                                <h3>Serveur</h3>
+                                            </div>
+                                            <div class="text">
+                                                <p>Configuration serveur Nginx ou Apache et mise en place d'outils annexes tels que Supervisor, RabbitMQ, Kong,...</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="inner">
+                                            <div class="icon">
+                                                <img class="svg" src="img/svg/new-tab.svg" alt="" />
+                                            </div>
+                                            <div class="title_service">
+                                                <h3>Web Développemnt</h3>
+                                            </div>
+                                            <div class="text">
+                                                <p>Création de site Web statique ou dynamique, création d'application Web, création d'application mobile (React Native)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="inner">
+                                            <div class="icon">
+                                                <img class="svg" src="img/svg/layers.svg" alt="" />
+                                            </div>
+                                            <div class="title_service">
+                                                <h3>Intégration continue</h3>
+                                            </div>
+                                            <div class="text">
+                                                <p>Maintien du bon fonctionnement des applications</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="inner">
+                                            <div class="icon">
+                                                <img class="svg" src="img/svg/share.svg" alt="" />
+                                            </div>
+                                            <div class="title_service">
+                                                <h3>Versionning</h3>
+                                            </div>
+                                            <div class="text">
+                                                <p>Gestion des versions à l'aide de GIT</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="inner">
+                                            <div class="icon">
+                                                <img class="svg" src="img/svg/seo-performance-marketing-graphic.svg" alt="" />
+                                            </div>
+                                            <div class="title_service">
+                                                <h3>SEO</h3>
+                                            </div>
+                                            <div class="text">
+                                                <p>Mise en place d'une stratégie de référencement.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="inner">
+                                            <div class="icon">
+                                                <img class="svg" src="img/svg/credit-card.svg" alt="" />
+                                            </div>
+                                            <div class="title_service">
+                                                <h3>Paiement en ligne</h3>
+                                            </div>
+                                            <div class="text">
+                                                <p>Mise en place d'API de paiement en ligne (Ogone, Stripe Braintree,...)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="inner">
+                                            <div class="icon">
+                                                <img class="svg" src="img/svg/envelope.svg" alt="" />
+                                            </div>
+                                            <div class="title_service">
+                                                <h3>Newsletter & Mailling</h3>
+                                            </div>
+                                            <div class="text">
+                                                <p>Mise en place d'API ou de SMTP pour l'envoie d'emails (Mandrill, Sending Blue, Campaign Monitor,...)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /SERVICES -->
+
+                <!-- NEWS -->
+                <div class="arlo_tm_section" id="news">
+                    <div class="arlo_tm_news_wrap">
+                        <div class="container">
+                            <div class="arlo_tm_title_holder news">
+                                <h3>Mes projets Git</h3>
+                                <span>Vous pouvez voir mes projets personnelles.</span>
+                            </div>
+                            <div class="arlo_tm_list_wrap blog_list">
+                                <ul class="total">
+                                    <li class="wow fadeInUp" data-wow-duration="1.2s">
+                                        <div class="inner_list">
+                                            <div class="image_wrap" style="overflow:hidden;background-position: center;background-size: cover;background-repeat: no-repeat;background-image: url(img/projects/vuejs.png); min-height: 200px">
+                                            </div>
+                                            <div class="definitions_wrap">
+                                                <div class="title_holder">
+                                                    <h3><a href="/projets/vue-form-wizard">Form Wizard</a></h3>
+                                                </div>
+                                                <div class="definition">
+                                                    <p>Formulaire à plusieurs étapes écrit en VueJS.</p>
+                                                </div>
+                                                <div class="read_more">
+                                                    <a href="https://github.com/BloomPhilippe/vue-form-wizard"><span>Code</span></a>
+                                                    <a href="/projets/vue-form-wizard"><span>Exemple</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.2s">
+                                        <div class="inner_list">
+                                            <div class="image_wrap" style="overflow:hidden;background-position: center;background-size: cover;background-repeat: no-repeat;background-image: url(img/projects/laravel.png); min-height: 200px">
+                                            </div>
+                                            <div class="definitions_wrap">
+                                                <div class="title_holder">
+                                                    <h3><a href="https://github.com/BloomPhilippe/RMQ">RMQ</a></h3>
+                                                </div>
+                                                <div class="definition">
+                                                    <p>Service de gestion des queues RabbitMQ à travers Lumen.</p>
+                                                </div>
+                                                <div class="read_more">
+                                                    <a href="https://github.com/BloomPhilippe/RMQ"><span>Code</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.4s">
+                                        <div class="inner_list">
+                                            <div class="image_wrap" style="overflow:hidden;background-position: center;background-size: cover;background-repeat: no-repeat;background-image: url(img/projects/react-native.png); min-height: 200px">
+                                            </div>
+                                            <div class="definitions_wrap">
+                                                <div class="title_holder">
+                                                    <h3><a href="https://github.com/BloomPhilippe/MoviesAndMe">MoviesAndMe</a></h3>
+                                                </div>
+                                                <div class="definition">
+                                                    <p>Petit projet React Native de gestion des films.</p>
+                                                </div>
+                                                <div class="read_more">
+                                                    <a href="https://github.com/BloomPhilippe/MoviesAndMe"><span>Code</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.6s">
+                                        <div class="inner_list">
+                                            <div class="image_wrap" style="overflow:hidden;background-position: center;background-size: cover;background-repeat: no-repeat;background-image: url(img/projects/react.jpeg); min-height: 200px">
+                                            </div>
+                                            <div class="definitions_wrap">
+                                                <div class="title_holder">
+                                                    <h3><a href="/projets/react-form-wizard">Form Wizard</a></h3>
+                                                </div>
+                                                <div class="definition">
+                                                    <p>Formulaire à plusieurs étapes écrit en React.</p>
+                                                </div>
+                                                <div class="read_more">
+                                                    <a href="https://github.com/BloomPhilippe/react-form-wizard"><span>Code</span></a>
+                                                    <a href="/projets/react-form-wizard"><span>Exemple</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.8s">
+                                        <div class="inner_list">
+                                            <div class="image_wrap" style="overflow:hidden;background-position: center;background-size: cover;background-repeat: no-repeat;background-image: url(img/projects/wp.png); min-height: 200px">
+                                            </div>
+                                            <div class="definitions_wrap">
+                                                <div class="title_holder">
+                                                    <h3><a href="https://github.com/BloomPhilippe/cours-wp-creation-theme">Thème WordPress</a></h3>
+                                                </div>
+                                                <div class="definition">
+                                                    <p>Mes notes de cours expliquant comment créer un thème WordPress.</p>
+                                                </div>
+                                                <div class="read_more">
+                                                    <a href="https://github.com/BloomPhilippe/cours-wp-creation-theme"><span>Code</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay="0.8s">
+                                        <div class="inner_list">
+                                            <div class="image_wrap" style="overflow:hidden;background-position: center;background-size: cover;background-repeat: no-repeat;background-image: url(img/projects/HTML5.jpg); min-height: 200px">
+                                            </div>
+                                            <div class="definitions_wrap">
+                                                <div class="title_holder">
+                                                    <h3><a href="https://github.com/BloomPhilippe/cours-creation-site-web/blob/master/css/css.md">Cours de CSS</a></h3>
+                                                </div>
+                                                <div class="definition">
+                                                    <p>Mes notes pour le cours de création de site Web</p>
+                                                </div>
+                                                <div class="read_more">
+                                                    <a href="https://github.com/BloomPhilippe/cours-creation-site-web/blob/master/css/css.md"><span>Code</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /NEWS -->
+
+                <!-- CONTACT & FOOTER -->
+                <div class="arlo_tm_section" id="contact">
+                    <div class="container">
+                        <div class="arlo_tm_title_holder contact">
+                            <h3>Contact</h3>
+                            <span>N'hésitez pas à poser vos questions</span>
+                        </div>
+                    </div>
+                    <div class="arlo_tm_footer_contact_wrapper_all">
+                        <div class="arlo_tm_contact_wrap_all">
+                            <div class="container">
+                                <div class="arlo_tm_contact_wrap">
+                                        <div class="main_input_wrap">
+                                            <form action="/" method="post" class="contact_form" id="contact_form">
+                                                <div class="returnmessage" data-success="Your message has been received, We will contact you soon."></div>
+                                                <div class="empty_notice"><span>Please Fill Required Fields</span></div>
+                                                <div class="wrap">
+                                                    <input id="name" type="text" placeholder="Votre Nom">
+                                                </div>
+                                                <div class="wrap">
+                                                    <input id="email" type="text" placeholder="Votre Email">
+                                                </div>
+                                                <div class="wrap">
+                                                    <textarea id="message" placeholder="Votre Message"></textarea>
+                                                </div>
+                                                <div class="arlo_tm_button">
+                                                    <a id="send_message" href="#"><span>Envoyer votre Message</span></a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="arlo_tm_footer_wrap">
+                            <div class="container">
+                                <p>&copy; Copyright 2019. All Rights are Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /CONTACT & FOOTER -->
+
+            </div>
         </div>
-        <div class="col-6 col-md">
-            <h5>À propos</h5>
-            <p>Développeur Web depuis 4 ans et originaire de Liège (Belgique).</p>
-            <p>Je suis passionné par programmation (PHP, Java, Javascript,...)</p>
-            <p>Je suis également professeur d'HTML, de CSS et de CMS (WordPress) à l'institut Saint-Laurent</p>
-        </div>
+        <!-- /RIGHTPART -->
+
+        <a class="arlo_tm_totop" href="#"></a>
+
     </div>
-</footer>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</div>
+<!-- / WRAPPER ALL -->
+
+<!-- SCRIPTS -->
+<script src="js/jquery.js"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
+<script src="js/plugins.js"></script>
+<script src="js/init.js"></script>
+<!-- /SCRIPTS -->
+
 </body>
 </html>
