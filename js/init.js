@@ -566,6 +566,7 @@ function arlo_tm_popup_blog(){
 		var titleHref	= element.find('.title_holder h3 a').html();
 		
 		mainImage.css({backgroundImage: 'url('+imgData+')'});
+		/*
 		button.on('click',function(){
 			popupBox.addClass('opened');
 			popupInner.html(html);
@@ -575,6 +576,7 @@ function arlo_tm_popup_blog(){
 			title.html(titleHref);
 			return false;
 		});
+		*/
 	});
 	closePopup.on('click',function(){
 		popupBox.removeClass('opened');
